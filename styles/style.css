@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   font-family: nyt-cheltenham, 'Georgia', Cambria, serif;
   font-size: 15px;
   line-height: normal;
@@ -20,7 +20,7 @@ body {
   width: 100%;
   justify-content: space-between;
   border-bottom: 1px solid black;
-
+  z-index: 1;
 }
 
 .nav-left-item {
@@ -34,6 +34,7 @@ body {
 
 #nav-logo {
   text-align: center;
+  height: 50px;
 }
 
 #nav-left {
@@ -41,26 +42,21 @@ body {
   margin-left: 10px;
 }
 
-#nav-logo {
-  height: 50px;
- 
-}
-
 #nav-buttons {
   margin-right: 5px;
   padding: 5px;
+}
 
+#nav-buttons:hover {
+  background-color: rgb(43, 92, 138);
 }
-#nav-buttons:hover{
-  background-color: rgb(43, 92, 138) ;
-}
+
 #nav-buttons button {
   padding: 10px 12px;
   color: #fff;
-  font-family:Arial, Helvetica, sans-serif;
-  background-color: rgb(86, 123, 149) ;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(86, 123, 149);
   border: 2px rgb(86, 123, 149);
-  padding: 10px;
   border-radius: 3px;
 }
 
@@ -73,27 +69,23 @@ body {
   padding: 26px;
 }
 
-
 .first-header {
   padding: 26px;
   position: relative;
   width: 1000px;
   margin: 0 auto;
- 
-}
-
-.header-image {
-  size: 1000px; 
 }
 
 .social-channels h1 a {
   width: 600px;
   margin: auto;
 }
+
 .author-time {
   display: flex;
   justify-items: left;
 }
+
 .image-style {
   width: 100%;
   margin: auto;
@@ -109,10 +101,9 @@ body {
   display: flex;
   width: 150px;
   top: 800px;
-  right:0px;
+  right: 0;
   margin: 10px;
   margin-top: 500px;
-  
 }
 
 li {
