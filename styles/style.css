@@ -1,3 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+    overflow: hidden;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.main {
+    padding: 26px;
+    margin-top: 30px;
+    height: auto;
+}
+
+#first-header {
+    position: relative;
+}
+
+
 h1 {
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
@@ -9,3 +35,6 @@ html {
 span {
     font-weight: bold;
 }
+
+
+
