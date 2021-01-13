@@ -9,6 +9,7 @@ body {
   line-height: normal;
   color: #333; /* dark-grey */
 }
+
 /* NAVBAR */
 
 #navbar-top {
@@ -18,19 +19,30 @@ body {
   top: 0;
   width: 100%;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+
 }
 
-#nav-left {
-  display: flex;
-  margin-left: 5px;
-  padding: 20px;
-  justify-content: space-around;
+.nav-left-item {
+  display: inline;
+  padding: 10px;
+}
 
+.nav-left-item a {
+  font-weight: 700;
 }
 
 #nav-logo {
   text-align: center;
-  height: auto;
+}
+
+#nav-left {
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+#nav-logo {
+  height: 50px;
  
 }
 
@@ -40,7 +52,7 @@ body {
 }
 
 /* BODY */
-.main{
+.main {
   position: relative;
   display: block;
   width: 1000px;
