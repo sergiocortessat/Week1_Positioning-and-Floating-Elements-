@@ -51,6 +51,9 @@ body {
   padding: 5px;
 
 }
+#nav-buttons:hover{
+  background-color: rgb(43, 92, 138) ;
+}
 #nav-buttons button {
   padding: 10px 12px;
   color: #fff;
