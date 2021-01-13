@@ -1,40 +1,31 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-nav {
-    overflow: hidden;
-    background-color: aquamarine;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
+#navbar-top {
+  overflow: hidden;
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .main {
-    padding: 26px;
-    margin-top: 30px;
-    height: auto;
+  padding: 26px;
+  margin-top: 30px;
+  height: auto;
 }
-
-#first-header {
-    position: relative;
-}
-
 
 h1 {
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
 html {
-    font-family: 'nyt-imperial'; 
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
-
-
-
