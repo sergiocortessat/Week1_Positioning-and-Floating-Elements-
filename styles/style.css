@@ -49,6 +49,11 @@ body {
 #nav-buttons {
   margin-right: 5px;
   padding: 5px;
+
+}
+#nav-buttons button {
+  padding: 10px 12px;
+  background-color: rgb(86, 123, 149) ;
 }
 
 /* BODY */
