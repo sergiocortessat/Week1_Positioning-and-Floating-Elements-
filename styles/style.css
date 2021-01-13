@@ -66,7 +66,10 @@ main {
   margin: auto;
 }
 
-
+.article-sections p {
+  width: 600px;
+  margin: auto;
+}
 li {
   list-style: none;
 }
