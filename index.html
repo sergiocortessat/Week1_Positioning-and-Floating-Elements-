@@ -8,10 +8,6 @@
   <link rel="stylesheet" href="styles/style.css">
   <link href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4a980e3ee7.js"></script>
-  <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
-  <!--[if lt IE 9]>
-      <script src=" https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js "></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -80,7 +76,6 @@
 <!-- Main section of page-->
 
     <article class="main">
-
         <div class="article-sections">
 
           <p>CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and
@@ -161,14 +156,13 @@
         <section id="theory_of_infaltion">
 
           <h1>The Theory Of Inflation</h1>
-
           <p>Astronomers have found evidence to support the theory of inflation, which explains how the universe
             expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
           
           
           <div class="the_theory_of_inflation">
             <div class="item">
-              <img src=""> 
+              <img src="#" alt="theoryinflation"> 
               <div class="universe">
               <h3>THE UNIVERSE</h3>
               <p>HE UNIVERSE is just under 14 billion years old. From our
@@ -178,8 +172,9 @@
               </p>
              </div>
           </div>
+        
             <div class="item">
-              <img src=""> 
+              <img src="#" alt="notEnoghTime"> 
               <div class="notEnoghTime">
               <h3>NOT ENOUGH TIME</h3>
               <p>The universe is not old enough for light to
@@ -190,7 +185,7 @@
           </div>
           </div>
             <div class="item">
-              <img src=""> 
+              <img src="#" alt="distantCoffee"> 
               <div class="distantCoffee">
               <h3>DISTANT COFFEE</h3>
               <p>DISTANT COFFEE At a smaller scale, imagine using a telescope
@@ -200,7 +195,7 @@
           </div>
           </div>  
             <div class="item">
-              <img src=""> 
+              <img src="#" alt="coffeeEverywhere"> 
               <div class="coffeeEverywhere">
               <h3>COFFEE EVERYWHERE</h3>
               <p>COFFEE EVERYWHERE Now turn around and look a mile in the other
@@ -211,7 +206,7 @@
           </div>
           </div>
             <div class="item">
-              <img src=""> 
+              <img src="#" alt="stillNotEnoughTime"> 
               <div class="stillNotEnoughTime">
               <h3>STILL NOT ENOUGH TIME</h3>
               <p>STILL NOT ENOUGH
@@ -222,7 +217,7 @@
         </div>
         </div>
             <div class="item">
-              <img src="">
+              <img src="#" alt="inflation">
               <div class="inflation"> 
               <h3>INFLATION</h3>
               <p>INFLATION solves this problem. The theory proposes that, less
@@ -233,7 +228,7 @@
           </div>
           </div>  
             <div class="item">
-              <img src=""> 
+              <img src="#" alt="fluctuation"> 
               <div class="fluctuation">
               <h3>FLUCTUATION</h3>
               <p>FLUCTUATION Astronomers have now detected evidence of these
@@ -244,7 +239,7 @@
           </div>
           </div>
             <div class="item">
-              <img src=""> 
+              <img src="#" alt="expansion"> 
               <div class="expansion">
               <h3>EXPANSION</h3>
               <p>EXPANSION Returning to our coffee, imagine a single, central
@@ -255,7 +250,7 @@
           </div>
           </div>
             
-          
+          </div>
 
         </section>
 
@@ -427,16 +422,17 @@
 
       <footer class="article-footer">
         <div class="article-footer-button">
-        <button><a">LEAVE COMMENTS</a></button>
+        <button>LEAVE COMMENTS</button>
         </div>
         <div class="article-footer-channels">
+        <ul>
           <li><i class="fa fa-facebook"></i></li>
           <li><i class="fa fa-twitter"></i></li>
-          <li></li><i class="fa fa-envelope"></i></li>
+          <li><i class="fa fa-envelope"></i></li>
           <li ><i class="fa fa-share"></i></li>
           <li><i class="fa fa-bookmark-o"></i></li>
           <li><i class="fa fa-comment-o"></i></li>
-    
+        </ul>
         </div>
       </footer>
 
@@ -447,7 +443,8 @@
 
     <aside class="aside">
         <section class="editors-pick">
-          <h4><hr>Editors’ Picks</h4>
+          <hr>
+          <h4>Editors’ Picks</h4>
 
         <div class="aside-section">
           <figure class="aside-image">
@@ -675,19 +672,17 @@
   <footer class="bottom-footer">
     <hr>
     <div class ="footer-NYClogo">
-    
-        <img alt="nyclogofooter" src="images/logo2NYC.jpg" alt="nyclogo2-footer">
-     
+        <img alt="nyclogofooter" src="images/logo2NYC.jpg">
     <div class="bottom-homepage">
-      <p><a href="">Go to Home Page</a></p>
+      <p><a href="#">Go to Home Page</a></p>
     </div>
   </div>
 
 
   <nav id="navbar-bottom">
-      <div>
-      <ul>
-      <h4 class="title">News</h5>
+
+
+      <ul><li><h4 class="title">News</h4></li>
           <li><a href="">Home Page</a></li>
           <li><a href="">World</a></li>
           <li><a href="">Coronavirus</a></li>
@@ -703,10 +698,10 @@
           <li><a href="">Today's Paper</a></li>
           <li><a href="">Corrections</a></li>
           </ul>
-    </div>
+ 
     <div>
-      <ul>
-      <h4 class="title">OPINION</h5>
+      <ul><li><h5 class="title">OPINION</h5></li>
+
           <li><a href="">Today's Opinion</a></li>
           <li><a href="">Op-Ed Columnists</a></li>
           <li><a href="">Editorials</a></li>
@@ -717,8 +712,7 @@
         </ul>
         </div>
     <div>
-      <ul>
-      <h4 class="title">Abc</h5>
+      <ul><li><h5 class="title">Abc</h5></li>
         <li><a href="">Home Page</a></li>
         <li><a href="">World</a></li>
         <li><a href="">U.S</a></li>
@@ -731,17 +725,20 @@
       </ul>
       </div>
     <div>
-      <ul>
-        <h4 class="title">Editors</h5>
+
+      <ul><li><h5 class="title">Editors</h5></li>
           <li><a href="">Home Page</a></li>
           <li><a href="">World</a></li>
           <li><a href="">U.S</a></li>
           <li><a href="">Vietnam</a></li>
           <li><a href="">Business</a></li>
           <li><a href="">Today's News</a></li>
+        </ul>
         </div>
     <div>
-        <h4 class="title">Best</h5>
+   
+
+        <ul><li><h5 class="title">Best</h5></li>
           <li><a href="">Home Page</a></li>
           <li><a href="">World</a></li>
           <li><a href="">U.S</a></li>
@@ -755,8 +752,8 @@
         </div>
 
         <div>
-          <ul>
-          <h4 class="title">Magan</h5>
+
+          <ul><li><h5 class="title">Magan</h5></li>
             <li><a href="">Home Page</a></li>
             <li><a href="">World</a></li>
             <li><a href="">U.S</a></li>
@@ -778,6 +775,7 @@
   </footer>
 
   <footer class="footer">
+    <ul>
       <li>2020 The New York Times Company</li>
       <li>NYTCo</li>
       <li>Contact Us</li>
@@ -791,7 +789,7 @@
       <li>Site Map</li>
       <li>Help</li>
       <li>Subscriptions</li>
-
+    </ul>
   </footer>
 
 </body>
