@@ -22,35 +22,22 @@ Additional description about the project and its features.
 ## Getting Started
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+First Microverse Project Week 1 Position and Floating page.
 
 
 ## Authors
 
-👤 Sergiocortessat
+👤 Sergio Cortes Satizabal
 
 - GitHub: [@githubhandle](https://github.com/sergiocortessat)
 - Twitter: [@twitterhandle](https://twitter.com/sergiocortessat)
 - LinkedIn: [LinkedIn](https://linkedin.com/sergiocortessat)
 
-👤 
+👤 Muhammad Ahtsham
 
-- GitHub: [@githubhandle](https://github.com/)
-- Twitter: [@twitterhandle](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/)
+- GitHub: [@githubhandle](https://github.com/mahtsham)
+- Twitter: [@twitterhandle](https://twitter.com/mahtsham)
+- LinkedIn: [LinkedIn](https://linkedin.com/mahtsham)
 
 ## 🤝 Contributing
 
