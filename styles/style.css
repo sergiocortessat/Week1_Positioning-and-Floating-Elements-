@@ -1,6 +1,55 @@
 * {
   box-sizing: border-box;
 }
+.the_theory_of_inflation{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  
+  
+}
+.item{
+  padding: 5px;
+  font-size: 15px;
+  text-align: left;
+  
+}
+.universe h3,
+.universe p{
+  display: inline;
+}
+.notEnoghTime h3,
+.notEnoghTime p{
+  display: inline;
+}
+
+.distantCoffee h3,
+.distantCoffee p{
+  display: inline;
+}
+.coffeeEverywhere h3,
+.coffeeEverywhere p{
+  display: inline;
+}
+.stillNotEnoughTime h3,
+.stillNotEnoughTime p{
+  display: inline;
+}
+.inflation h3,
+.inflation p{
+  display: inline;
+}
+.fluctuation h3,
+.fluctuation p{
+  display: inline;
+}
+
+.expansion h3,
+.expansion p{
+  display: inline;
+}
+
+
 
 li {
   list-style: none;
