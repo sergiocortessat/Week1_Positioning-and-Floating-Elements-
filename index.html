@@ -427,7 +427,7 @@
 
       <footer class="article-footer">
         <div class="article-footer-button">
-        <button><a">LEAVE COMMENTS</a></button>
+        <button><a">READ COMMENTS</a></button>
         </div>
         <div class="article-footer-channels">
           <li><i class="fa fa-facebook"></i></li>
@@ -441,7 +441,31 @@
       </footer>
 
     </article>
+    <section>
+      <form action="/form.html" method="post">
+          <fieldset id="form">
+          <label for="username">Username <input type="text" name="usersname" id="username" required></label>
+          <label for="email">Email<input type="email" name="email" id="email" required></label>
+          <label for="comment">Comments<textarea name="comment" id="comment" placeholder="Type your commment here" required >Add any comment you might have</textarea></label>
+          <label>“What is your overall opinion about this article”
+            <input type="radio" name="feedback" value="positive">Positive
+          </label>
+            <label>
+              <input type="radio" name="feedback" value="negative">Negative
+            </label>
+            <label>
+              <input type="radio" name="feedback" value="neutral">Neutral
+            </label>
 
+          <input type="checkbox">I want to subscribe
+          <input type="submit" name="submit" value="Send">
+          </fieldset>
+      </form>
+
+        </section>
+    
+
+    
     <!--ASIDE SECTION-->
 
     <aside class="aside">
