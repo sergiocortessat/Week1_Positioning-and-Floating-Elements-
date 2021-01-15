@@ -163,6 +163,16 @@ span {
   margin-top: 80px;
 }
 
+.newsletter-title > a {
+  font-family: nyt-cheltenham, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .social-channels h1 a {
   width: 600px;
   margin: 0 auto;
@@ -345,19 +355,21 @@ span {
 
 #suggestions {
   display: flex;
-  width: 100px;
-  margin-left: -30px;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: auto;
   text-align: left;
   font-family: nyt-franklin, sans-serif;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .astronomy-boxing {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-gap: 20px;
+  justify-items: center;
+  text-align: justify;
 }
 
 .editor-boxing {
@@ -388,13 +400,6 @@ span {
   margin-bottom: 0;
 }
 
-#suggestions {
-  text-align: left;
-  width: 500px;
-  margin: auto;
-  font-family: nyt-franklin, sans-serif;
-}
-
 .editor-boxing img {
   width: 190px;
   height: 130px;
@@ -413,13 +418,13 @@ span {
   margin: 20px;
 }
 
+#space-newsletter > ul > li {
+  padding-bottom: 150px;
+}
+
 #suggestions > div > div > ul > li {
   width: 272px;
   height: 181px;
-}
-
-#space-newsletter > ul > li {
-  padding-bottom: 150px;
 }
 
 #suggestions h2 {
@@ -445,14 +450,4 @@ span {
   color: #999;
   text-align: left;
   margin-top: 0;
-}
-
-.newsletter-title > a {
-  font-family: nyt-cheltenham, sans-serif;
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
 }
