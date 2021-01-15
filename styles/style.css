@@ -4,47 +4,48 @@
 }
 
 .item {
-  padding: 5px;
-  font-size: 15px;
+  padding: 3px;
+  font-size: 14px;
   text-align: left;
 }
 
-.universe h3,
+.universe h4,
 .universe p {
   display: inline;
 }
 
-.notEnoghTime h3,
+.notEnoghTime h4,
 .notEnoghTime p {
+  font-size: 14px;
   display: inline;
 }
 
-.distantCoffee h3,
+.distantCoffee h4,
 .distantCoffee p {
   display: inline;
 }
 
-.coffeeEverywhere h3,
+.coffeeEverywhere h4,
 .coffeeEverywhere p {
   display: inline;
 }
 
-.stillNotEnoughTime h3,
+.stillNotEnoughTime h4,
 .stillNotEnoughTime p {
   display: inline;
 }
 
-.inflation h3,
+.inflation h4,
 .inflation p {
   display: inline;
 }
 
-.fluctuation h3,
+.fluctuation h4,
 .fluctuation p {
   display: inline;
 }
 
-.expansion h3,
+.expansion h4,
 .expansion p {
   display: inline;
 }
