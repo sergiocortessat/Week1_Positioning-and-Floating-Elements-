@@ -291,6 +291,7 @@ span {
 
 .article-footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -302,7 +303,7 @@ span {
 }
 
 .article-footer-channels li {
-  margin: 5px;
+  margin: 10px;
 }
 
 .article-footer-button {
@@ -359,7 +360,8 @@ span {
   display: flex;
   justify-content: space-evenly;
   align-items: baseline;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #suggestions {
@@ -410,11 +412,9 @@ span {
 }
 
 .newsletter-suggest h2 {
-position: relative;
-left: 35px;
-
+  position: relative;
+  left: 35px;
 }
-
 
 .editor-boxing img {
   width: 190px;
@@ -431,7 +431,7 @@ left: 35px;
 }
 
 .newsletter-editor > ul > li {
-  margin: 20px;<
+  margin: 20px;
 }
 
 #space-newsletter > ul > li {
