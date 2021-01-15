@@ -132,10 +132,6 @@ span {
   padding: 5px;
 }
 
-#nav-buttons:hover {
-  background-color: rgb(43, 92, 138);
-}
-
 #nav-buttons button {
   padding: 10px 12px;
   color: #fff;
@@ -143,6 +139,14 @@ span {
   background-color: rgb(86, 123, 149);
   border: 2px rgb(86, 123, 149);
   border-radius: 3px;
+}
+
+#nav-buttons:hover #login {
+  background-color: rgb(43, 92, 138);
+}
+
+#nav-buttons:hover #subscribe {
+  background-color: rgb(43, 92, 138);
 }
 
 /* BODY */
@@ -173,10 +177,14 @@ span {
   margin-bottom: 0;
 }
 
-.social-channels h1 a {
+.social-channels a {
   width: 600px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 5px;
+}
+
+.social-channels i {
+  color: grey;
 }
 
 .author-time {
@@ -400,6 +408,13 @@ span {
   margin-bottom: 0;
 }
 
+.newsletter-suggest h2 {
+position: relative;
+left: 35px;
+
+}
+
+
 .editor-boxing img {
   width: 190px;
   height: 130px;
@@ -415,7 +430,7 @@ span {
 }
 
 .newsletter-editor > ul > li {
-  margin: 20px;
+  margin: 20px;<
 }
 
 #space-newsletter > ul > li {
