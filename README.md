@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Excersie 1
+# Week 1 Positioning and Floating
 
 > Creating first repository with Linter, separate commits and a HTML and CSS file
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png)
 
 Additional description about the project and its features.
 
@@ -16,40 +16,28 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sergiocortessat.github.io/Week1_Positioning-and-Floating-Elements-/
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+First Microverse Project Week 1 Position and Floating page.
 
 
 ## Authors
 
-👤 Sergiocortessat
+👤 Sergio Cortes Satizabal
 
 - GitHub: [@githubhandle](https://github.com/sergiocortessat)
 - Twitter: [@twitterhandle](https://twitter.com/sergiocortessat)
 - LinkedIn: [LinkedIn](https://linkedin.com/sergiocortessat)
 
+👤 Muhammad Ahtsham
 
+- GitHub: [@githubhandle](https://github.com/mahtsham)
+- Twitter: [@twitterhandle](https://twitter.com/mahtsham)
+- LinkedIn: [LinkedIn](https://linkedin.com/mahtsham)
 
 ## 🤝 Contributing
 
