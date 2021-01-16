@@ -218,10 +218,9 @@ span {
 .aside {
   position: absolute;
   display: flex;
-  width: 10%;
+  width: 20%;
   top: 900px;
   right: 100px;
-  margin: 150px;
   margin-top: 500px;
   font-size: 15px;
   flex-direction: column;
