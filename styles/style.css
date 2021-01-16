@@ -214,8 +214,8 @@ span {
   position: absolute;
   display: flex;
   width: 10%;
-  top: 800px;
-  right: 5%;
+  top: 900px;
+  right: 100px;
   margin: 150px;
   margin-top: 500px;
   font-size: 15px;
@@ -388,8 +388,6 @@ span {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 20px;
-  justify-items: center;
-  text-align: justify;
 }
 
 .editor-boxing {
