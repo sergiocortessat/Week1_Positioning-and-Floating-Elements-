@@ -1,6 +1,13 @@
 .the_theory_of_inflation {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  position: relative;
+  right: 80px;
+}
+
+.grid {
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
 .item {
@@ -158,9 +165,11 @@ span {
   margin: 0 auto;
 }
 
+
+
 .first-header {
   position: relative;
-  width: 1000px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -189,8 +198,9 @@ span {
 }
 
 .author-time {
-  display: flex;
-  justify-items: left;
+  width: 100%;
+  text-align: center;
+  
 }
 
 .image-style {
@@ -199,8 +209,6 @@ span {
 }
 
 .article-sections p {
-  width: 100%;
-  margin: 15px;
   font-size: 25px;
   text-align: justify;
 }
@@ -208,23 +216,19 @@ span {
 .aside {
   position: absolute;
   display: flex;
-  width: 5%;
+  width: 10%;
   top: 800px;
   right: 5%;
   margin: 150px;
   margin-top: 500px;
   font-size: 15px;
-}
-
-.editors-pick {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.aside-section {
-  display: flex;
-  justify-content: center;
+.aside h4{
+  margin-left: 38px;
+
 }
 
 .aside-section figure {
@@ -279,14 +283,18 @@ span {
   height: 1000px;
 }
 
+#image1 {
+  display: inline-block;
+  text-align: justify;
+}
+
 .header-image {
   position: relative;
-  right: 150px;
+  right: 100px;
 }
 
 .header-section {
-  position: relative;
-  left: 75px;
+ margin-right: 80px;
 }
 
 .article-footer {
@@ -315,23 +323,22 @@ span {
   background-color: rgb(43, 92, 138);
 }
 
+.footer {
+border-top: 1px solid grey;
+}
 .footer ul {
   display: flex;
   flex-flow: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  font-size: 8px;
+  list-style-type: none;
 }
 
-.footer li {
-  list-style: none;
-  margin: 15px;
-  font-size: 11px;
-}
 
 .bottom-footer {
-  display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: 50%;
+  width: 930px;
   justify-content: center;
   margin: auto;
 }
@@ -344,16 +351,24 @@ span {
 
 .footer-NYClogo {
   display: flex;
-  flex-flow: nowrap;
-  justify-content: space-between;
+  position: relative;
+
 }
 
 .footer-NYClogo img {
-  width: 150px;
+  width: 300px;
+  
 }
 
 .bottom-homepage {
-  margin-right: 35px;
+  position: relative;
+  left: 540px;
+}
+
+.bottom-homepage a {
+ text-decoration: none;
+ color: grey;
+ font-size: 10px;
 }
 
 #navbar-bottom {
@@ -466,4 +481,20 @@ span {
   color: #999;
   text-align: left;
   margin-top: 0;
+}
+
+.polygon-item a {
+   text-decoration: none;
+}
+
+.polygon-icon {
+  color: grey;}
+
+#navbar-bottom ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  text-align: justify;
+  font-family: nyt-franklin, sans-serif;
+
 }
