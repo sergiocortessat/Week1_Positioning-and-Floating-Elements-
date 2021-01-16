@@ -165,8 +165,6 @@ span {
   margin: 0 auto;
 }
 
-
-
 .first-header {
   position: relative;
   width: 700px;
@@ -200,7 +198,6 @@ span {
 .author-time {
   width: 100%;
   text-align: center;
-  
 }
 
 .image-style {
@@ -226,9 +223,8 @@ span {
   justify-content: flex-start;
 }
 
-.aside h4{
+.aside h4 {
   margin-left: 38px;
-
 }
 
 .aside-section figure {
@@ -294,7 +290,7 @@ span {
 }
 
 .header-section {
- margin-right: 80px;
+  margin-right: 80px;
 }
 
 .article-footer {
@@ -324,7 +320,7 @@ span {
 }
 
 .footer {
-border-top: 1px solid grey;
+  border-top: 1px solid grey;
 }
 .footer ul {
   display: flex;
@@ -333,7 +329,6 @@ border-top: 1px solid grey;
   font-size: 8px;
   list-style-type: none;
 }
-
 
 .bottom-footer {
   flex-direction: column;
@@ -352,12 +347,10 @@ border-top: 1px solid grey;
 .footer-NYClogo {
   display: flex;
   position: relative;
-
 }
 
 .footer-NYClogo img {
   width: 300px;
-  
 }
 
 .bottom-homepage {
@@ -366,9 +359,9 @@ border-top: 1px solid grey;
 }
 
 .bottom-homepage a {
- text-decoration: none;
- color: grey;
- font-size: 10px;
+  text-decoration: none;
+  color: grey;
+  font-size: 10px;
 }
 
 #navbar-bottom {
@@ -403,6 +396,9 @@ border-top: 1px solid grey;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.subcrisptions a {
+  tab-size: 1px;
+}
 .newsletter-suggest {
   width: 17.9%;
 }
@@ -484,16 +480,13 @@ border-top: 1px solid grey;
 }
 
 .polygon-item a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .polygon-icon {
   color: grey;
   font-style: bold;
 }
-  .subcrisptions a {
-  tab-size: 1px;
-  }
 
 #navbar-bottom ul li a {
   text-decoration: none;
@@ -501,5 +494,4 @@ border-top: 1px solid grey;
   font-size: 18px;
   text-align: justify;
   font-family: nyt-franklin, sans-serif;
-
 }
