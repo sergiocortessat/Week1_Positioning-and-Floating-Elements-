@@ -488,7 +488,12 @@ border-top: 1px solid grey;
 }
 
 .polygon-icon {
-  color: grey;}
+  color: grey;
+  font-style: bold;
+}
+  .subcrisptions a {
+  tab-size: 1px;
+  }
 
 #navbar-bottom ul li a {
   text-decoration: none;
