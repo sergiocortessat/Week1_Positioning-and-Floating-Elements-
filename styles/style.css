@@ -161,7 +161,7 @@ span {
 
 .main {
   position: relative;
-  width: 700px;
+  width: 650px;
   margin: 0 auto;
 }
 
@@ -322,6 +322,7 @@ span {
 .footer {
   border-top: 1px solid grey;
 }
+
 .footer ul {
   display: flex;
   flex-flow: wrap;
@@ -399,6 +400,11 @@ span {
 .subcrisptions a {
   tab-size: 1px;
 }
+
+.polygon-item a {
+  text-decoration: none;
+}
+
 .newsletter-suggest {
   width: 17.9%;
 }
@@ -479,13 +485,8 @@ span {
   margin-top: 0;
 }
 
-.polygon-item a {
-  text-decoration: none;
-}
-
 .polygon-icon {
   color: grey;
-  font-style: bold;
 }
 
 #navbar-bottom ul li a {
