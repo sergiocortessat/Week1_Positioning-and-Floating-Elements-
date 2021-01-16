@@ -200,6 +200,11 @@ span {
   text-align: center;
 }
 
+.image-style5 {
+  width: 600px;
+  margin: auto;
+}
+
 .image-style {
   width: 900px;
   margin: auto;
@@ -266,7 +271,6 @@ span {
 .image-box {
   box-sizing: border-box;
   position: relative;
-  right: 100px;
 }
 
 .image-box figure {
